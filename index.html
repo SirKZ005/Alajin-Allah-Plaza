@@ -35,8 +35,16 @@
         .hero {
             text-align: center;
             padding: 2rem;
-            background: url('plaza-background.jpg') no-repeat center center/cover;
+            background: url('path/to/building.jpg') no-repeat center center/cover;
             color: #fff;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .hero h2, .hero p {
+            margin: 0.5rem;
         }
         .section {
             padding: 2rem;
@@ -93,8 +101,8 @@
 
     <!-- Hero Section -->
     <section class="hero">
-        <h2>Explore Our Exclusive Product Range</h2>
-        <p>Discover a variety of quality products at affordable prices.</p>
+        <h2>Welcome to Alajin Allah Plaza</h2>
+        <p>Explore a variety of quality products at affordable prices.</p>
         <button onclick="alert('Start Shopping!')">Shop Now</button>
     </section>
 
@@ -129,7 +137,7 @@
                 <p>Elegant and stylish</p>
                 <button>Add to Cart</button>
             </div>
-            <!-- More products can be added here -->
+            <!-- Additional product cards can be added here -->
         </div>
     </section>
 
